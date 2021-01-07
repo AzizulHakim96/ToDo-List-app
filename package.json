@@ -1,0 +1,29 @@
+{
+  "name": "todo-list-app-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzizulHakim96/Todo-list-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzizulHakim96/Todo-list-app/issues"
+  },
+  "homepage": "https://github.com/AzizulHakim96/Todo-list-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.11.10",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "handlebars": "^4.5.0"
+  }
+}

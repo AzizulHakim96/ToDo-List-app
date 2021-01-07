@@ -1,0 +1,24 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/task" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{task._id}}">
+    <div class="form-group">
+        <label>Task Name</label>
+        <input type="text" class="form-control" name="taskName" placeholder="Task Name" value="{{task.taskName}}">
+        {{!-- <div class="text-danger">
+            {{.taskNameError}}</div> --}}
+    </div>
+    <div class="form-group">
+        <label>Deadline</label>
+        <input type="text" class="form-control" name="deadline" placeholder="Deadline" value="{{task.deadline}}">
+    </div>
+    <div class="form-group">
+            <label>Time Required</label>
+            <input type="text" class="form-control" name="timeRequired" placeholder="Time Required" value="{{task.timeRequired}}">
+    </div>    
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
+        <a class="btn btn-secondary" href="/task/list"><i class="fa fa-list-alt"></i> View All</a>
+    </div>
+</form>
